@@ -1,0 +1,20 @@
+@use "../../styles/partials/globals" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/typography" as *;
+
+.navBar {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+    &__item {
+      text-decoration: none;
+    }
+  }
+}
