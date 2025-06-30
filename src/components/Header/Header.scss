@@ -1,0 +1,20 @@
+@use "../../styles/partials/globals" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/typography" as *;
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid ;
+
+  &__logo {
+    width: 100%;
+    max-width: 2.5rem;
+    height: auto;
+    padding: 0 3rem;
+  }
+}
