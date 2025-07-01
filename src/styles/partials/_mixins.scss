@@ -10,6 +10,7 @@
 
   &:hover {
     color: $Terracota;
+    border-bottom: 1px solid $Terracota;
     cursor: pointer;
   }
 }
@@ -18,11 +19,13 @@
   width: auto;
   height: auto;
   border: 1px solid $CloudWhite;
-  border-radius: 8px;
-  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  padding: 1rem 2rem;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 
   &:hover {
+    color: $FloralWhite;
+    background-color: $ForestGreen;
     cursor: pointer;
   }
 }
