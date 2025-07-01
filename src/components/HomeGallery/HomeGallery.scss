@@ -3,3 +3,37 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/typography" as *;
 
+.homeGallery {
+  display: flex;
+  background-image: url(/src/assets/images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem 3rem;
+  }
+
+  &__title {
+    width: 45vw;
+    padding: 2rem 3rem;
+    color: $FloralWhite;
+  }
+
+  &__buttonContainer {
+    padding: 2rem 3rem;
+  }
+
+  &__button {
+    width: auto;
+    height: auto;
+    border: 1px solid $CloudWhite;
+    border-radius: 8px;
+    padding: 0.5rem 2rem;
+  }
+}
