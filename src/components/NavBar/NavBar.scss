@@ -17,7 +17,11 @@
   }
 
   &__link {
-    text-decoration: none;
-    color: $Slate;
+    @include link;
+
+    &--active {
+      color: $Terracota;
+      border-bottom: 2px solid $Terracota;
+    }
   }
 }
