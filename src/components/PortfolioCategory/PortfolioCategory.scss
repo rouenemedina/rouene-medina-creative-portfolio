@@ -1,0 +1,9 @@
+@use "../../styles/partials/globals" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/typography" as *;
+
+.portfolioCategory {
+    display: flex;
+    padding: 2rem 3rem;
+}
