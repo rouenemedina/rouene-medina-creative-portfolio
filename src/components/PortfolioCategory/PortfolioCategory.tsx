@@ -6,6 +6,7 @@ interface PortfolioCategoryProps {
   alttext: string;
   title: string;
   link: string;
+  className: string;
 }
 
 function PortfolioCategory({
@@ -13,10 +14,11 @@ function PortfolioCategory({
   alttext,
   title,
   link,
+  className
 }: PortfolioCategoryProps) {
   return (
     <>
-      <main className="portfolioCategory">
+      <main className={`portfolioCategory ${className}`}>
         <Link to={link} className="portfolioCategory__link">
           <section className="portfolioCategory__container">
             <img
