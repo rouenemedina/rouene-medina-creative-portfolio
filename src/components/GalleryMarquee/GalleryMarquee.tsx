@@ -14,7 +14,7 @@ function GalleryMarquee({ images }: GalleryMarqueeProps) {
       <main className="galleryMarquee">
         <ul className="galleryMarquee__track">
           {doubledImages.map((image, index) => (
-            <li key={index}>
+            <li key={index} className="galleryMarquee__item">
               <img
                 src={image.src}
                 alt={image.alt}
