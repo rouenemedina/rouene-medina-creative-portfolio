@@ -29,3 +29,14 @@
     cursor: pointer;
   }
 }
+
+@mixin mainPortfolio {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 5rem;
+  gap: 2rem;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
