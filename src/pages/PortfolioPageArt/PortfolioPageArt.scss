@@ -5,4 +5,24 @@
 
 .portfolioPageArt {
     @include mainPortfolio;
+    flex-direction: column;
+
+    &__container {
+        padding: 1rem;
+    }
+
+    &__track {
+        width: 100vw;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    &__subtitle {
+        font-size: 4rem;
+        padding: 2rem;
+    }
+
+    &__tiles {
+        padding: 1rem;
+    }
 }
