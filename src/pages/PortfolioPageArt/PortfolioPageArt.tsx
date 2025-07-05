@@ -32,7 +32,7 @@ function PortfolioPageArt() {
       alt: "matcha_cheesecake",
     },
     {
-      src: "/src/assets/images/ArtGalleryTile/natcha_latte.png",
+      src: "/src/assets/images/ArtGalleryTile/matcha_latte.png",
       alt: "matcha latte",
     },
     {
@@ -49,14 +49,35 @@ function PortfolioPageArt() {
       src: "/src/assets/images/ArtGalleryTile/red_coffee_mug.png",
       alt: "red_coffee_mug",
     },
-    { src: "/src/assets/images/ArtGalleryTile/art6.png", alt: "jellyfish" },
+    {
+      src: "/src/assets/images/ArtGalleryTile/jellyfish.png",
+      alt: "jellyfish",
+    },
     { src: "/src/assets/images/ArtGalleryTile/art3.jpg", alt: "lobster" },
     {
-      src: "/src/assets/images/ArtGalleryTile/art11.png",
-      alt: "food illustration",
+      src: "/src/assets/images/ArtGalleryTile/blueberries.png",
+      alt: "blueberries",
+    },
+    { src: "/src/assets/images/ArtGalleryTile/cinammon.png", alt: "cinammon" },
+    { src: "/src/assets/images/ArtGalleryTile/lemon.png", alt: "lemon" },
+    {
+      src: "/src/assets/images/ArtGalleryTile/matcha_icecream.png",
+      alt: "matcha_icecream",
     },
     {
-      src: "/src/assets/images/ArtGalleryTile/art13.png",
+      src: "/src/assets/images/ArtGalleryTile/orange_slice.png",
+      alt: "orange_slice",
+    },
+    {
+      src: "/src/assets/images/ArtGalleryTile/tomato_green.png",
+      alt: "tomato_green",
+    },
+    {
+      src: "/src/assets/images/ArtGalleryTile/strawberry_bundle.png",
+      alt: "strawberry_bundle",
+    },
+    {
+      src: "/src/assets/images/ArtGalleryTile/flower.png",
       alt: "watercolor flower",
     },
   ];
