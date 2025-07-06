@@ -3,36 +3,33 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename); 
+const __dirname = path.dirname(__filename);
 
 const marqueeDir = path.join(
   __dirname,
   "../public/assets/images/ArtGalleryMarquee"
 );
-const tileDir = path.join(
-  __dirname,
-  "../public/assets/images/ArtGalleryTile"
-);
+const tileDir = path.join(__dirname, "../public/assets/images/ArtGalleryTile");
 const outputFile = path.join(__dirname, "../src/data/artGalleryData.json");
 
 function filterImageFiles(files) {
   const validExtensions = [".jpg", ".jpeg", ".png", ".gif"];
-  return files.filter((file) =>
-    !file.startsWith(".") &&
-    validExtensions.some((ext) => file.endsWith(ext))
+  return files.filter(
+    (file) =>
+      !file.startsWith(".") && validExtensions.some((ext) => file.endsWith(ext))
   );
 }
 
 let marqueeFiles = [];
 if (fs.existsSync(marqueeDir)) {
-  marqueeFiles = filterImageFiles(fs.readdirSync(marqueeDir));
+  marqueeFiles = filterImageFiles(fs.readdirSync(marqueeDir).sort());
 } else {
   console.error(`Directory not found: ${marqueeDir}`);
 }
 
 let tileFiles = [];
 if (fs.existsSync(tileDir)) {
-  tileFiles = filterImageFiles(fs.readdirSync(tileDir));
+  tileFiles = filterImageFiles(fs.readdirSync(tileDir).sort());
 } else {
   console.error(`Directory not found: ${tileDir}`);
 }
