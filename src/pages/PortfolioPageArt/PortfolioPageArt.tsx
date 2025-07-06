@@ -2,7 +2,7 @@ import "./PortfolioPageArt.scss";
 import Header from "../../components/Header/Header";
 import GalleryMarquee from "../../components/GalleryMarquee/GalleryMarquee";
 import GalleryTile from "../../components/GalleryTile/GalleryTile";
-import artGalleryData from "../../data/artGallery.json";
+import artGalleryData from "../../data/artGalleryData.json";
 
 function PortfolioPageArt() {
  const {marqueeImages, tileImages} = artGalleryData;

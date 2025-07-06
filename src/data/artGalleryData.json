@@ -1,0 +1,146 @@
+{
+  "marqueeImages": [
+    {
+      "src": "/assets/images/ArtGalleryMarquee/.DS_Store",
+      "alt": ".DS_Store"
+    },
+    {
+      "src": "/assets/images/ArtGalleryMarquee/art.png",
+      "alt": "art"
+    },
+    {
+      "src": "/assets/images/ArtGalleryMarquee/art1.jpg",
+      "alt": "art1"
+    },
+    {
+      "src": "/assets/images/ArtGalleryMarquee/art10.png",
+      "alt": "art10"
+    },
+    {
+      "src": "/assets/images/ArtGalleryMarquee/art11.jpg",
+      "alt": "art11"
+    },
+    {
+      "src": "/assets/images/ArtGalleryMarquee/art12.png",
+      "alt": "art12"
+    },
+    {
+      "src": "/assets/images/ArtGalleryMarquee/art2.jpg",
+      "alt": "art2"
+    },
+    {
+      "src": "/assets/images/ArtGalleryMarquee/art3.png",
+      "alt": "art3"
+    },
+    {
+      "src": "/assets/images/ArtGalleryMarquee/art4.png",
+      "alt": "art4"
+    },
+    {
+      "src": "/assets/images/ArtGalleryMarquee/art5.png",
+      "alt": "art5"
+    },
+    {
+      "src": "/assets/images/ArtGalleryMarquee/art8.png",
+      "alt": "art8"
+    },
+    {
+      "src": "/assets/images/ArtGalleryMarquee/art9.png",
+      "alt": "art9"
+    }
+  ],
+  "tileImages": [
+    {
+      "src": "/assets/images/ArtGalleryTile/.DS_Store",
+      "alt": ".DS_Store"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 1.png",
+      "alt": "Roue_Artwork 1"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 10.png",
+      "alt": "Roue_Artwork 10"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 11.png",
+      "alt": "Roue_Artwork 11"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 12.png",
+      "alt": "Roue_Artwork 12"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 13.png",
+      "alt": "Roue_Artwork 13"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 14.png",
+      "alt": "Roue_Artwork 14"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 15.png",
+      "alt": "Roue_Artwork 15"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 16.png",
+      "alt": "Roue_Artwork 16"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 17.png",
+      "alt": "Roue_Artwork 17"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 18.png",
+      "alt": "Roue_Artwork 18"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 19.png",
+      "alt": "Roue_Artwork 19"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 2.png",
+      "alt": "Roue_Artwork 2"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 20.png",
+      "alt": "Roue_Artwork 20"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 21.png",
+      "alt": "Roue_Artwork 21"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 22.png",
+      "alt": "Roue_Artwork 22"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 3.png",
+      "alt": "Roue_Artwork 3"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 4.png",
+      "alt": "Roue_Artwork 4"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 5.png",
+      "alt": "Roue_Artwork 5"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 6.png",
+      "alt": "Roue_Artwork 6"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 7.png",
+      "alt": "Roue_Artwork 7"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 8.png",
+      "alt": "Roue_Artwork 8"
+    },
+    {
+      "src": "/assets/images/ArtGalleryTile/Roue_Artwork 9.png",
+      "alt": "Roue_Artwork 9"
+    }
+  ]
+}
