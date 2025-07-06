@@ -22,7 +22,7 @@ function About() {
         </section>
         <section className="about__container about__container--right">
           <img
-            src="/src/assets/images/about.jpg"
+            src="/src/assets/images/cherryblossom.jpg"
             alt="cherry blossoms"
             className="about__image about__image--left"
           ></img>
