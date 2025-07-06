@@ -14,7 +14,7 @@ function ContactForm({ className }: ContactFormProps) {
         data-netlify-honeypot="bot-field"
         className={`contactForm ${className}`}
       >
-        <input type="hidden" name="form-contact" value="contact" />
+        <input type="hidden" name="form-name" value="contact" />
 
         <section className="contactForm__container">
           <div className="contactForm__honeypot">
