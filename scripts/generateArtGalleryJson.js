@@ -32,7 +32,7 @@ if (fs.existsSync(marqueeDir)) {
 
 let tileFiles = [];
 if (fs.existsSync(tileDir)) {
-  tileFiles = filerImageFiles(fs.readdirSync(tileDir));
+  tileFiles = filterImageFiles(fs.readdirSync(tileDir));
 } else {
   console.error(`Directory not found: ${tileDir}`);
 }

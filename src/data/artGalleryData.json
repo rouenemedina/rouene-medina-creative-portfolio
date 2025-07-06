@@ -1,10 +1,6 @@
 {
   "marqueeImages": [
     {
-      "src": "/assets/images/ArtGalleryMarquee/.DS_Store",
-      "alt": ".DS_Store"
-    },
-    {
       "src": "/assets/images/ArtGalleryMarquee/art.png",
       "alt": "art"
     },
@@ -50,10 +46,6 @@
     }
   ],
   "tileImages": [
-    {
-      "src": "/assets/images/ArtGalleryTile/.DS_Store",
-      "alt": ".DS_Store"
-    },
     {
       "src": "/assets/images/ArtGalleryTile/Roue_Artwork 1.png",
       "alt": "Roue_Artwork 1"
