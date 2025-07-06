@@ -1,6 +1,6 @@
 {
   "marqueeImages": [
-    { "src": "/assets/ArtGalleryMarquee/art2.jpg", "alt": "art2" },
+    { "src": "/assets/images/ArtGalleryMarquee/art2.jpg", "alt": "art2" },
     { "src": "/assets/images/ArtGalleryMarquee/art1.jpg", "alt": "art1" },
     { "src": "/assets/images/ArtGalleryMarquee/art3.png", "alt": "art3" },
     { "src": "/assets/images/ArtGalleryMarquee/art4.png", "alt": "art4" },
