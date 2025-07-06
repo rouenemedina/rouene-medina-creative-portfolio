@@ -18,20 +18,21 @@ const outputFile = path.join(__dirname, "../src/data/artGalleryData.json");
 function filterImageFiles(files) {
   const validExtensions = [".jpg", ".jpeg", ".png", ".gif"];
   return files.filter((file) =>
+    !file.startsWith(".") &&
     validExtensions.some((ext) => file.endsWith(ext))
   );
 }
 
 let marqueeFiles = [];
 if (fs.existsSync(marqueeDir)) {
-  marqueeFiles = fs.readdirSync(marqueeDir);
+  marqueeFiles = filterImageFiles(fs.readdirSync(marqueeDir));
 } else {
   console.error(`Directory not found: ${marqueeDir}`);
 }
 
 let tileFiles = [];
 if (fs.existsSync(tileDir)) {
-  tileFiles = fs.readdirSync(tileDir);
+  tileFiles = filerImageFiles(fs.readdirSync(tileDir));
 } else {
   console.error(`Directory not found: ${tileDir}`);
 }
