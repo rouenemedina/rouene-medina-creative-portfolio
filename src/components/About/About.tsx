@@ -1,4 +1,6 @@
 import "./About.scss";
+import roue from "../../assets/images/roue.jpg";
+import cherryBlossoms from "../../assets/images/cherryblossom.jpg";
 
 function About() {
   return (
@@ -22,12 +24,12 @@ function About() {
         </section>
         <section className="about__container about__container--right">
           <img
-            src="/src/assets/images/cherryblossom.jpg"
+            src={cherryBlossoms}
             alt="cherry blossoms"
             className="about__image about__image--left"
           ></img>
           <img
-            src="/src/assets/images/roue.jpg"
+            src={roue}
             alt="creator's image"
             className="about__image"
           ></img>

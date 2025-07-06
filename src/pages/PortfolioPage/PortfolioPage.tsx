@@ -1,6 +1,8 @@
 import "./PortfolioPage.scss";
 import Header from "../../components/Header/Header";
 import PortfolioCategory from "../../components/PortfolioCategory/PortfolioCategory";
+import photography from "../../assets/images/photography.jpg";
+import art from "../../assets/images/art.jpg";
 
 function PortfolioPage() {
   return (
@@ -9,14 +11,14 @@ function PortfolioPage() {
       <main className="portfolioPage">
         <section className="portfolioPage__categories">
           <PortfolioCategory
-            image="/src/assets/images/photography.jpg"
+            image={photography}
             alttext="photography"
             title="PHOTOGRAPHY"
             link="/portfolio/photography"
             className="portfolioPage__category"
           />
           <PortfolioCategory
-            image="/src/assets/images/art.jpg"
+            image={art}
             alttext="art"
             title="ART"
             link="/portfolio/art"

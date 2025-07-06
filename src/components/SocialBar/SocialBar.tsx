@@ -1,4 +1,9 @@
 import "./SocialBar.scss";
+import instagram from "../../assets/icons/instagram.png";
+import youtube from "../../assets/icons/youtube.png";
+import tiktok from "../../assets/icons/tiktok.png";
+import linktree from "../../assets/icons/linktr.png";
+import linkedin from "../../assets/icons/linkedin.png";
 
 function SocialBar() {
   return (
@@ -10,7 +15,7 @@ function SocialBar() {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/icons/instagram.png"
+            src={instagram}
             alt="instagram"
             className="socialBar__icon"
           ></img>
@@ -21,7 +26,7 @@ function SocialBar() {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/icons/youtube.png"
+            src={youtube}
             alt="youtube"
             className="socialBar__icon"
           ></img>
@@ -32,7 +37,7 @@ function SocialBar() {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/icons/tiktok.png"
+            src={tiktok}
             alt="tiktok"
             className="socialBar__icon"
           ></img>
@@ -43,7 +48,7 @@ function SocialBar() {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/icons/linktr.png"
+            src={linktree}
             alt="linktree"
             className="socialBar__icon"
           ></img>
@@ -54,7 +59,7 @@ function SocialBar() {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/icons/linkedin.png"
+            src={linkedin}
             alt="linkedin"
             className="socialBar__icon"
           ></img>
