@@ -22,14 +22,14 @@ function filterImageFiles(files) {
 
 let marqueeFiles = [];
 if (fs.existsSync(marqueeDir)) {
-  marqueeFiles = filterImageFiles(fs.readdirSync(marqueeDir).sort());
+  marqueeFiles = filterImageFiles(fs.readdirSync(marqueeDir)).sort();
 } else {
   console.error(`Directory not found: ${marqueeDir}`);
 }
 
 let tileFiles = [];
 if (fs.existsSync(tileDir)) {
-  tileFiles = filterImageFiles(fs.readdirSync(tileDir).sort());
+  tileFiles = filterImageFiles(fs.readdirSync(tileDir)).sort();
 } else {
   console.error(`Directory not found: ${tileDir}`);
 }
